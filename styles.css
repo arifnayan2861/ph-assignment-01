@@ -13,6 +13,14 @@
     font-family: 'Inter', sans-serif;
 }
 
+.orange-txt {
+    color: #FF0000;
+}
+
+.navy-txt {
+    color: #070211;
+}
+
 /* header section */
 header {
     max-width: 1200px;
@@ -55,10 +63,6 @@ header {
     margin: 100px 0 50px;
 }
 
-#discount-info h1, #discount-info p {
-    color: #FF0000;
-}
-
 #discount-info h1 {
     font-size: 88px;
     font-weight: 700;
@@ -72,7 +76,6 @@ header {
 }
 
 #discount-info h2 {
-    color: #070211;
     font-size: 48px;
     font-weight: 700;
 }
@@ -157,7 +160,6 @@ header {
 }
 
 #invitation-info {
-    color: #070211;
     text-align: center;
     font-size: 32px;
     font-style: normal;
@@ -169,10 +171,6 @@ header {
     flex-direction: column;
     justify-content: center;
     margin-top: 50px;
-}
-
-#invitation-info span {
-    color: #FF0000;
 }
 
 #invitation-info button {
@@ -210,7 +208,6 @@ header {
 }
 
 #offer-info h3 {
-    color: #F00;
     font-size: 24px;
     font-style: normal;
     font-weight: 500;
@@ -219,7 +216,6 @@ header {
 }
 
 #offer-info h1 {
-    color: #070211;
     font-size: 48px;
     font-style: normal;
     font-weight: 900;
@@ -229,8 +225,7 @@ header {
 }
 
 #offer-section p {
-    color: rgba(7, 2, 17, 0.60);
-    font-family: Inter;
+    color: #07021199;
     font-size: 20px;
     font-style: normal;
     font-weight: 400;
@@ -262,7 +257,6 @@ header {
 }
 
 #offer-date h1 {
-    color: #F00;
     font-family: Inter;
     font-size: 48px;
     font-style: normal;
@@ -290,7 +284,6 @@ header {
 }
 
 #sale-heading h3 {
-    color: #070211;
     font-size: 24px;
     font-style: normal;
     font-weight: 500;
@@ -299,16 +292,11 @@ header {
 }
 
 #sale-heading h1 {
-    color: #070211;
     font-size: 72px;
     font-style: normal;
     font-weight: 900;
     line-height: normal;
     margin-bottom: 30px;
-}
-
-#sale-heading h1 span {
-    color: #FF0000;
 }
 
 #sale-heading p {
@@ -361,7 +349,6 @@ header {
 }
 
 #portfolio-heading h3 {
-    color: #F00;
     font-size: 24px;
     font-style: normal;
     font-weight: 500;
@@ -370,7 +357,6 @@ header {
 }
 
 #portfolio-heading h1 {
-    color: #070211;
     font-size: 48px;
     font-style: normal;
     font-weight: 900;
@@ -379,7 +365,7 @@ header {
 }
 
 #portfolio-heading p {
-    color: rgba(7, 2, 17, 0.60);
+    color: #07021199;
     font-size: 20px;
     font-style: normal;
     font-weight: 400;
@@ -407,11 +393,10 @@ header {
     max-width: 1200px;
     height: 500px;
     border-radius: 16px;
-    background: rgba(255, 0, 0, 0.05);
+    background: #ff00000d;
 }
 
 #subscribe-section h1 {
-    color: #070211;
     font-size: 48px;
     font-style: normal;
     font-weight: 900;
@@ -420,7 +405,7 @@ header {
 }
 
 #subscribe-section p {
-    color: rgba(7, 2, 17, 0.60);
+    color: #07021199;
     font-size: 20px;
     font-style: normal;
     font-weight: 400;
@@ -432,7 +417,6 @@ header {
     width: 500px;
     height: 60px;
     border-radius: 50px 0px 0px 50px;
-    /* border: 1px solid gray; */
     border: none;
     color: rgba(7, 2, 17, 0.60);
     font-size: 18px;
@@ -475,7 +459,6 @@ footer {
     color: white;
     background-color: #070211;
     height: 300px;
-    /* max-width: 1200px; */
     padding: 100px 120px;
 }
 
